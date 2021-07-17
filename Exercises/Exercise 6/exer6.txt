@@ -1,0 +1,47 @@
+-- https://cs.lmu.edu/~ray/notes/paradigms/
+-- https://ggbaker.ca/prog-langs/content/lang-types.html
+-- https://stackify.com/python-garbage-collection/
+-- https://ggbaker.ca/prog-langs/content/lang-implement.html 
+
+
+Language Description #1
+
+- C++ 17
+
+- Despite supporting multiple paradigms, overall I think C++ is an object-oriented language.
+As it is mostly used with utilization and manipulation of data and objects.
+
+- Can be compiled and interpreted in different ways but most commonly compiled into machine code using GCC.
+
+- Static data type. Can be both staticly or dynamicly binded. The reason for it also being dynamicly binded is 
+because it can have void or empty type classes that can only be determined during runtime.
+
+- Strong typing. Because most values are explicitly typed.
+
+- Manual Memory management. Because programmers has to manually manipulate the memory to make their programs as 
+efficient and effective as possible.
+
+- It has both first-class functions and closures. Because writing functions in certain ways can make them passable as 
+an argument and it can also support functions within functions.
+
+- C++ supports both parallel and concurrent programming. Programmers can use threads to achieve them.
+
+
+Language Description #2
+
+- Python 3.9
+
+- Python uses multiple paradigms for different purposes, I think it is more commonly used for imperative paradigm.
+As most programs are given a sequence to follow and operate on.
+
+- Bytecode compiled and interpreted with CPython.
+
+- Dynamic data type. Dynamic binding. Since types are not known until runtime.
+
+- Strong typing. Because the type of each value is tracked during runtime.
+
+- Garbage Collection. The two garbage collection methods of python are reference counting and generational garbage collection.
+
+- It has both first-class functions and closures. Most functions written can be passable and named function can be defined within other functions.
+
+- Python supports both parallel and concurrent programming, and it has built-in modules for users to utilize them.
