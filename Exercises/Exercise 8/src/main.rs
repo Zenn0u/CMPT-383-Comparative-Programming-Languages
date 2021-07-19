@@ -25,12 +25,12 @@ fn main() {
     // println!("{:?}", find_elt(&v2, 'o')); // Some(4)
     // println!("{:?}", find_elt(&v2, 'q')); // None
 
-    let mut r = Rational::new(6, 8);
-    println!("{:?}", r); // prints Rational { n: 6, d: 8 }
-    r.reduce();
-    println!("{:?}", r); // prints Rational { n: 3, d: 4 }
-    let n = Rational::from(4_i64);
-    println!("{:?}", n); // prints Rational { n: 4, d: 1 }
-    println!("{}", n == Rational::new(4,1)); // prints true
+    // let mut r = Rational::new(6, 8);
+    // println!("{:?}", r); // prints Rational { n: 6, d: 8 }
+    // r.reduce();
+    // println!("{:?}", r); // prints Rational { n: 3, d: 4 }
+    // let n = Rational::from(4_i64);
+    // println!("{:?}", n); // prints Rational { n: 4, d: 1 }
+    // println!("{}", n == Rational::new(4,1)); // prints true
 
 }
