@@ -9,7 +9,7 @@ pub mod rational;
 // use find::find_elt;
 
 //use rational::gcd;
-use rational::Rational;
+//use rational::Rational;
 
 fn main() {
     // nothing is required here, but you may want to use it for testing.
@@ -32,5 +32,4 @@ fn main() {
     // let n = Rational::from(4_i64);
     // println!("{:?}", n); // prints Rational { n: 4, d: 1 }
     // println!("{}", n == Rational::new(4,1)); // prints true
-
 }
