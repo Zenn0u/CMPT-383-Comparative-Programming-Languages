@@ -1,0 +1,16 @@
+//  https://newbedev.com/what-is-the-difference-between-iter-and-into-iter
+//  https://doc.rust-lang.org/stable/std/vec/struct.Drain.html
+//  
+
+.into_iter() = move, returns an iterator from a value, type iterator which can be any of T, &T or &mut T
+    * Used if you need a new owner to have the data
+
+.iter() = borrow, returns an iterator of slices, type &T
+    * Used if you just want to read the data
+
+.iter_mut() = mut borrow, returns an iterator that is mutable, type &mut T
+    * Used if you want to modify the data
+
+.drain() = move, returns an iterator from a value, type iterator which can be any of T, &T or &mut T
+    * Used similar to into_iter() except when used doesnt delete the previous vector only empties iter
+    * so that previous vec can still be used
